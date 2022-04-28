@@ -12,6 +12,7 @@
 		8F1F9A682810973300548282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F9A662810973300548282 /* Main.storyboard */; };
 		8F1F9A6A2810973600548282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F9A692810973600548282 /* Assets.xcassets */; };
 		8F1F9A6D2810973600548282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F9A6B2810973600548282 /* LaunchScreen.storyboard */; };
+		8F64BADC281A7DF60008144D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F64BADB281A7DF60008144D /* CustomTableViewCell.swift */; };
 		8FE7A1562810A1FD00D56288 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE7A1552810A1FD00D56288 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		8F1F9A692810973600548282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F1F9A6C2810973600548282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F1F9A6E2810973600548282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F64BADB281A7DF60008144D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		8FE7A1552810A1FD00D56288 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 		8F1F9A5F2810973300548282 /* MyPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				8F64BADB281A7DF60008144D /* CustomTableViewCell.swift */,
 				8F1F9A602810973300548282 /* AppDelegate.swift */,
 				8FE7A1552810A1FD00D56288 /* MainViewController.swift */,
 				8F1F9A622810973300548282 /* SceneDelegate.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				8FE7A1562810A1FD00D56288 /* MainViewController.swift in Sources */,
 				8F1F9A612810973300548282 /* AppDelegate.swift in Sources */,
+				8F64BADC281A7DF60008144D /* CustomTableViewCell.swift in Sources */,
 				8F1F9A632810973300548282 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
